@@ -1,0 +1,5 @@
+renderType: freemarker
+templateScript: /wilcox-tech/templates/components/about.ftl
+dialog: wilcox-tech:components/about-dialog
+title: About
+

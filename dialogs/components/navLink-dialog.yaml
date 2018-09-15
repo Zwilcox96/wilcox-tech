@@ -1,0 +1,18 @@
+form:
+  tabs:
+    - name: tabText
+      label: Text
+      fields:
+        - name: linkLocation
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Location
+        - name: linkName
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+    label: Save
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+    label: Cancel

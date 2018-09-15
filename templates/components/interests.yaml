@@ -1,0 +1,14 @@
+renderType: freemarker
+templateScript: /wilcox-tech/templates/components/interests.ftl
+dialog: wilcox-tech:components/interestsSection-dialog
+title: Interest Section
+
+areas: 
+  interestsList:
+    type: list
+    title: Interest List
+    availableComponents:
+      interestLeft:
+        id: wilcox-tech:components/interestLeft
+      interestRight:
+        id: wilcox-tech:components/interestRight

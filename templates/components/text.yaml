@@ -1,0 +1,4 @@
+renderType: freemarker
+templateScript: /wilcox-tech/templates/components/text.ftl
+dialog: wilcox-tech:components/text-dialog
+title: Text

@@ -1,0 +1,4 @@
+renderType: freemarker
+templateScript: /wilcox-tech/templates/components/interestLeft.ftl
+dialog: wilcox-tech:components/interest-dialog
+title: Interest Left

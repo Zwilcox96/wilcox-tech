@@ -1,0 +1,193 @@
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    header {
+        background-attachment: scroll;
+    }
+    
+}
+
+/*Big tablet to 1200px */
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }   
+    
+    .row {
+        padding: 0 2%;
+    }
+
+    header {
+        background-attachment: scroll;
+    }
+
+    .skill-box li {
+        font-size: 92%;
+    }
+
+    .skill-box h3 {
+        font-size: 100%;
+    }
+}
+
+/*Small to big tablets 768-1023px*/
+@media only screen and (max-width: 1023px){
+    body {
+        font-size: 18px;
+    }
+    section { padding: 40px, 10px;}
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    header {
+        background-attachment: scroll;
+    }
+    
+    .steps-box {margin-top: 10px;}
+    
+    .steps-box:last-child {margin-top: 10px;}
+    
+    .works-steps {margin-bottom: 40px;}
+    
+    .works-steps:last-of-type {margin-bottom: 60px;}
+    
+    .app-screen {width: 50%;}
+    
+    .btn-app img {
+        height: 40px;
+        width: auto;
+        margin-right: 10px;
+    }
+    
+    .icon-small { 
+        width: 17px;
+        margin-right: 5px;
+    
+    }
+    
+    .city-feature { font-size: 85%;}
+    
+    .interest-logo-left {
+        width: 100%;
+        height: auto;
+        padding-right: 12%;
+    }
+    
+    .interest-logo-right {
+        width: 100%;
+        height: auto;
+        padding-left: 12%;
+    }
+    
+    .skill-box li{
+        font-size: 82%;
+    }
+    
+    .skill-box{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .skill-box h3 {
+        margin-bottom: 0;
+    }
+    
+    .section-about h3{
+        font-size: 93%;
+    }
+    .contact-form {
+    width: 80%;
+    margin: 0 auto;
+}
+}
+
+
+
+/*small phones to small tablets 481-767px*/
+@media only screen and (max-width: 767px){
+    body {
+        font-size: 16px;
+    }
+    
+    section {
+        padding: 30px, 0;
+    }
+    
+    .row,
+    .hero-text-box {padding: 0 4%;}
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    .main-nav { display: none;}
+    
+    h1 {font-size: 180%;}
+    h2 {font-size: 150%;}
+    
+    header {
+        background-attachment: scroll;
+    }
+    .app-screen {width: 40%}
+    
+    .steps-box:first-child {text-align: center;}
+
+    .interest-logo-left {
+        width: 100%;
+        height: auto;
+        padding-right: 0%;
+    }
+    
+    .interest-logo-right {
+        width: 100%;
+        height: auto;
+        padding-left: 0%;
+    }
+    
+    .works-step div {
+
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        padding: 4px;
+        float: left;
+        font-size: 120%;
+        margin-right: 15px;
+    }
+
+    
+    .works-step {margin-bottom: 20px;}
+    
+    .works-step:last-of-type {margin-bottom: 20px;}
+    
+    .skill-box li{
+        font-size: 100%;
+    }
+    
+    .section-about h3{
+        font-size: 150%;
+    }
+    
+    .section-services i{
+        text-align: center;
+    }
+    
+    .contact-form{width: 100%;}
+    
+    .contact-form input[type=submit]{width: 100%;}
+}
+
+/*small phones*/
+@media only screen and (max-width: 480px){
+    section {padding: 25px 0;}
+    .contact-form{width: 100%;}
+}
+
+

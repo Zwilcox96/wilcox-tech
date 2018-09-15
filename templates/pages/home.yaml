@@ -1,0 +1,37 @@
+renderType: freemarker
+templateScript: /wilcox-tech/templates/pages/home.ftl
+dialog: wilcox-tech:pages/homePageProperties
+title: Wilcox Tech Home
+
+areas:
+  navigation:
+    renderType: freemarker
+    #templateScript: /wilcox-tech/templates/areas/navigation.ftl
+    type: list
+    availableComponents: 
+      navigation:
+        id: wilcox-tech:components/navigation
+    optional: false
+  header:
+    renderType: freemarker
+    type: list
+    availableComponents: 
+      headline:
+        id: wilcox-tech:components/headline
+    optional: false
+  main:
+    renderType: freemarker
+    type: list
+    availableComponents:
+      about:
+        id: wilcox-tech:components/about
+      text:
+        id: wilcox-tech:components/text
+      interests:
+        id: wilcox-tech:components/interests
+    optional: false
+  footer:
+    renderType: freemarker
+    templateScript: /wilcox-tech/templates/pages/areas/footer.ftl
+    type: noComponent
+    optional: false

@@ -1,0 +1,106 @@
+form:
+  tabs:
+    - name: headline
+      label: Text
+      fields:
+        - name: headline
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Headline
+    - name: box1
+      label: Skill Box \#1
+      fields:
+        - name: headingSB1
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Skill Box Headline
+        - name: icon1
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Icon Class
+        - name: sub1
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Subheading
+        - name: icon2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Icon Class
+        - name: sub2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Subheading
+        - name: icon3
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Icon Class
+        - name: sub3
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Subheading
+        - name: icon4
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Icon Class
+        - name: sub4
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Subheading
+    - name: box2
+      label: Skill Box \#2
+      fields:
+        - name: headingSB2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Skill Box Headline
+        - name: icon5
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Icon Class
+        - name: sub5
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Subheading
+        - name: icon6
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Icon Class
+        - name: sub6
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Subheading
+        - name: icon7
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Icon Class
+        - name: sub7
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Subheading
+        - name: icon8
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Icon Class
+        - name: sub8
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Subheading
+    - name: box1
+      label: Skill Box \#3
+      fields:
+        - name: headingSB3
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Skill Box Headline
+        - name: icon9
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Icon Class
+        - name: sub9
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Subheading
+        - name: icon10
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Icon Class
+        - name: sub10
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Subheading
+        - name: icon11
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Icon Class
+        - name: sub11
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Subheading
+        - name: icon12
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Icon Class
+        - name: sub12
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Subheading
+        
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+    label: Save
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+    label: Cancel

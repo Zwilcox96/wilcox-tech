@@ -1,0 +1,4 @@
+renderType: freemarker
+templateScript: /wilcox-tech/templates/components/headline.ftl
+dialog: wilcox-tech:components/headline-dialog
+title: Headline

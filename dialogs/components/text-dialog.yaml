@@ -1,0 +1,24 @@
+form:
+  tabs:
+    - name: tabText
+      label: Text
+      fields:
+        - name: heading
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Headline
+        - name: longCopy
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Body
+    - name: avanced
+      label: Advanced
+      fields:
+        - name: customClass
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Custom Class
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+    label: Save
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+    label: Cancel

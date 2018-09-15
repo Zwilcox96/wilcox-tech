@@ -1,0 +1,12 @@
+renderType: freemarker
+templateScript: /wilcox-tech/templates/components/navigation.ftl
+dialog: wilcox-tech:components/navigation-dialog
+title: Navigation
+
+areas: 
+  navigationLinks:
+    type: list
+    title: Links
+    availableComponents:
+      navLink:
+        id: wilcox-tech:components/navLink
