@@ -1,3 +1,7 @@
+[#-- 
+This is an FTL script for the homepage of zackwilcox.com
+Created by Zack Wilcox. Please give credit if you use it.
+--]
 [#assign image = damfn.getAssetLink(content.background!)]
 [#assign imageSmall = damfn.getAssetLink(content.backgroundSmall!content.background)]
 <!DOCTYPE html>
